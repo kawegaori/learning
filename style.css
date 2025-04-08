@@ -1,0 +1,143 @@
+body{
+    background: url('https://www.water-sport-bali.com/wp-content/uploads/2015/02/Pantai-Nusa-Dua-Bali-1.jpg');
+    background-size: cover;
+    z-index: 0;
+    height: 300vh;
+}
+
+.header{
+    top: 0;
+    right: 0;
+    z-index: 90;
+    position: fixed;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* bikin anak kiri & kanan */
+    align-items: center;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 91;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.navbar img {
+    margin-right: 3rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.navbar img:hover {
+    transform: scale(1.05);
+}
+
+.samping{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: aqua;
+    width: 23%;
+    height: 100%;
+
+}
+
+.judul ul{
+    display: flex;
+    flex-direction: column;                 /*Biar kebawah*/
+    gap: 1rem;
+    margin-top: 100px;
+}
+
+.judul li{
+    display: inline-block;
+}
+
+.home{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-left: 500px;
+    margin-right: 300px;
+    background-color: bisque;
+    border: 2px solid black;    
+}
+
+.home h3{
+    color: snow;
+}
+
+.home h1{
+    color: red;
+}
+
+.about text{
+    margin-top: 0px;
+}
+
+.about{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 650px;
+    margin-right: 300px;
+}
+
+.about img{
+    margin-right: 3rem;
+    width: 450px;
+    height: 450px;
+    border-radius: 20%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    
+}
+
+#home,#about,#portofolio,#contact{
+    scroll-margin-top: 200px;
+}
+
+.portofolio{
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+    z-index: 92;
+}
+
+.baris1{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.baris2{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
